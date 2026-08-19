@@ -256,11 +256,11 @@ nav a:hover{
 
 .playList a{
     font-size: 14px;
-    color: var(--text);
+    color: var(--accent);
     text-decoration: none;
 }
 .playList a:hover{
-    color:var(--accent);
+    color:var(--text);
 }
 
 
@@ -542,7 +542,7 @@ footer{
 
 /** RESPONSIVE PC **/
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .hero {
         background-image: url('../assets/GilbertCZpc.png');
         -webkit-mask-image: linear-gradient(
@@ -783,11 +783,6 @@ footer{
 
 /* SET LINK */
 
-.container-ph .card .hiddenSection {
-    display: block;
-
-    margin-top: 0.75rem;
-}
 .container-ph .card .hiddenSection a {
     display: inline-block;
 
@@ -809,7 +804,8 @@ footer{
 }
 
 .container-ph .card .hiddenSection {
-        display: block !important;
+        display: block;
+        margin-top: 0.75rem;
         opacity: 1;
         visibility: visible;
         transform: none;
